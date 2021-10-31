@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+     --first-color:#eeeeec;
+    --second-color:#e6c3af;
+}
+html{
+    font-family: 'Rubik';
+    text-transform: capitalize;
+}
+.navbar , footer
+{
+ background-color: var(--second-color);
+}
+.nav-link
+{
+color: black;
+margin-left: 15px;
+font-size: 18px;
+}
+.nav-link:hover
+{
+    color: var(--last-color);
+}
+.nav 
+{
+    background-color: var(--first-color);
+    margin-top: 20px;
+}
+.nav .nav-item a:hover
+{
+    color: var(--second-color);
+}
+.carousel-item img
+{
+    width: 100%;
+}
+.carousel-item
+{
+    height: 80vh;
+    overflow: hidden;
+    text-align: center;
+}
+h2 ,h3
+{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: var(--second-color);
+    padding: 20px;
+}
+p 
+{
+    color: var(--second-color);
+    font-size: 20px;
+
+}
+.card-link:hover
+{
+   background-color: var(--second-color);
+   color: white;
+ 
+}
+.card-link
+{
+    color: var(--second-color);
+    background-color: var(--first-color);
+    text-decoration: none;
+    padding: 10PX;
+    border-radius: 5PX;
+     text-align: center;
+     font-size: 22px;
+     margin: auto;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "pic1  . pic2  "
+     ".  pic3 .  "
+     "pic4 . pic5 ";
+     grid-template-rows: repeat(3 ,1fr) ;
+     gap: 10px 10px ;
+     color: white;
+     padding: 20px;
+     background-color: var(--first-color);
+}
+.pic1 
+{
+    grid-area: pic1;
+    height: 180px;
+    
+}
+.pic1 img
+{
+    width: 100%;
+    border-radius: 10%;
+    height: 100%;
+}
+
+.pic2
+{
+    grid-area: pic2;
+    height: 180px;
+
+}
+.pic2 img
+{
+    width: 100%;
+    border-radius: 10%;
+    height: 100%;
+
+}
+.pic3
+{
+    grid-area: pic3;
+    
+}
+.pic3 img
+{
+    width: 100%;
+    border-radius: 10%;
+}
+.pic4 
+{
+    grid-area: pic4;
+    height: 180px;
+}
+.pic4 img
+{
+    width: 100%;
+    border-radius: 10%;
+    height: 100%;
+}
+.pic5
+{
+    grid-area: pic5;
+    height: 180px;
+}
+
+.pic5 img
+{
+    width: 100%;
+    border-radius: 10%;
+    height: 100%;
+}
+footer
+{
+    padding: 3px;
+}
+h4
+{
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico', cursive;
+
+}
+footer p 
+{
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+footer i 
+{
+    margin-left: 7px;
+}
